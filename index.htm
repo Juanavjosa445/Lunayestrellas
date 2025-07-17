@@ -5,28 +5,45 @@
     <title>title</title>
 </head>
 <body>
-    
-    <p style="color: blue">hola</p>  
-    <p style="color: >hola</p>
-     background-"color red"
-     <h1 
-     id="titulo"
-     ></h1>/
+
 </body>
 <script>
-let titulo = document.getElementById("titulo")
-titulo.innerHTML = "Hola soy Juana"
-titulo.style.color = "black"
-titulo.style.backgroundColor = "#885763"
-
-let creaElemento = domucment.createElement("h1")
-crearElemento.innerHTML = "nuevo elemnnto"
-crearElemnto.style.color = "lightblue"
-crearElemento.style.backgroundColor = "darkblue"
- document.body.appendChild(crearElemnto)
 
 
+function agregarElemento(texto,color,fondo){
+}
+
+function convertir_CHYK_a_RGB(c,m,y,k){
+  let r,g,b
+  r=255*(1-c)*(1-k)
+  g=255*(1_m)*(1-k)
+}
+
+let variable = 1
+let crearElemento = document.createElement("h1")
+crearElemento.innerHTML = texto
+crearElemento.style.color = color
+crearElemento.style.backgroundColor = fondo
+ document.body.appendChild(crearElemento)
+ agregarElemento("argumentos","000")
+agregarElemento("argumentos","blue","lightblue")
+agregarElemento("segundo elemento","red","pink")
+agregarElemento(undefined)
+ agregarElemento("argumentos","blue","lightblue")
+agregarElemento("segundo elemento","red","pink")
+agregarElemento(undefined)
+</body> 
 </script>
-
-
 </html>
+}
+
+function convertir_CHYK_a_RGB (c,m,y,k)
+let r,g,b
+r=255*(1-c)*(1-k)
+g=255*(1-m)*(1-k)
+b=255*(1-y)*(1-k)
+return "rgb("+r+"," "+g+","+b+)"
+}
+
+agregarElemento("rgb","blue","rgb(2,3,4)")
+let a = agregarElemento("segundo","red,"pink")
